@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate>
+{
+    UIScrollView *scroll_1;
+    UIScrollView *scroll_2;
+}
 
 @end

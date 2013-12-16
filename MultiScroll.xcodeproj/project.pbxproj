@@ -21,6 +21,8 @@
 		14288C5E185E9B1C00589761 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14288C40185E9B1C00589761 /* UIKit.framework */; };
 		14288C66185E9B1C00589761 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14288C64185E9B1C00589761 /* InfoPlist.strings */; };
 		14288C68185E9B1C00589761 /* MultiScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14288C67185E9B1C00589761 /* MultiScrollTests.m */; };
+		14288C76185E9F0300589761 /* Batman.png in Resources */ = {isa = PBXBuildFile; fileRef = 14288C75185E9F0300589761 /* Batman.png */; };
+		14288C78185EA03800589761 /* ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = 14288C77185EA03800589761 /* ironman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		14288C63185E9B1C00589761 /* MultiScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiScrollTests-Info.plist"; sourceTree = "<group>"; };
 		14288C65185E9B1C00589761 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14288C67185E9B1C00589761 /* MultiScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiScrollTests.m; sourceTree = "<group>"; };
+		14288C75185E9F0300589761 /* Batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Batman.png; sourceTree = "<group>"; };
+		14288C77185EA03800589761 /* ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				14288C4E185E9B1C00589761 /* Main.storyboard */,
 				14288C51185E9B1C00589761 /* ViewController.h */,
 				14288C52185E9B1C00589761 /* ViewController.m */,
+				14288C77185EA03800589761 /* ironman.png */,
+				14288C75185E9F0300589761 /* Batman.png */,
 				14288C54185E9B1C00589761 /* Images.xcassets */,
 				14288C43185E9B1C00589761 /* Supporting Files */,
 			);
@@ -228,8 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14288C78185EA03800589761 /* ironman.png in Resources */,
 				14288C55185E9B1C00589761 /* Images.xcassets in Resources */,
 				14288C47185E9B1C00589761 /* InfoPlist.strings in Resources */,
+				14288C76185E9F0300589761 /* Batman.png in Resources */,
 				14288C50185E9B1C00589761 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
